@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-messaging-consumer
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  h2:
+    console:
+      enabled: true
